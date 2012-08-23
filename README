@@ -1,0 +1,34 @@
+This is a simple Topcoder Editor Plugin for C++.
+Features:
+
+This plugin will automatically generate the required header files & a structure comprising of your classname,methodname,return type, & parameter types.A sample is shown below:
+													
+#include<iostream>
+.
+.
+.
+.
+using namespace std;
+class <classname>{
+public:
+				<return type> <methodname>(<parameter type> {parameter name},...,...){
+				
+				}
+};
+All fields provided with <> will be automatically generated.
+All fields provided with {} should be provided by user.
+
+Adding & using the plugin:
+1. Just go to "Options"->"Editors"
+2. Press "add" button
+3. Enter your preffered name in the "Name" field.
+4. Enter "mytcplugin" in the "entrypoint" field.
+5. Enter the directory name in which your plugin's .class file resides.
+6. Turn on the default radio button.
+6.Click on "save"->"ok"->"close".
+7. Also make your default language C++
+7.Open a problem 
+
+Future Improvements:
+
+This is only Version 1 of this plugin.I'll look to add compile feature in future after topcoder makes it available.Also support for other languages may be included.
